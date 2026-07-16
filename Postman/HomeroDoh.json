@@ -3,10 +3,38 @@
     "_postman_id": "26cfee67-6902-416f-998c-7384d6f2bfa8",
     "name": "HomeroDoh",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "53873160",
-    "_collection_link": "https://go.postman.co/collection/53873160-26cfee67-6902-416f-998c-7384d6f2bfa8?source=collection_link"
+    "_exporter_id": "53873160"
   },
   "item": [
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"admin123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/auth/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
     {
       "name": "Crear Marca",
       "request": {
