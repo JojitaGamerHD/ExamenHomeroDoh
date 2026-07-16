@@ -11,8 +11,6 @@ El proyecto implementa arquitectura por capas, persistencia con JPA/Hibernate, a
 # Integrantes
 
 * Johaquin Fernandez
-* Joaquin Cardenas
-* Danilo Navarro
 
 ---
 
@@ -333,6 +331,6 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-# Evaluación 3
+# Examen Transversal
 
-Proyecto desarrollado para la Evaluación 3 de Desarrollo Fullstack.
+Proyecto desarrollado para el Examen Transversal de Desarrollo Fullstack.
