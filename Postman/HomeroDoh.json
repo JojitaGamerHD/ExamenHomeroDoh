@@ -21,12 +21,10 @@
           }
         },
         "url": {
-          "raw": "http://localhost:8080/auth/login",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/auth/login",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "auth",
             "login"
@@ -50,12 +48,10 @@
           }
         },
         "url": {
-          "raw": "http://localhost:8080/api/v1/marcas",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/marcas",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -80,12 +76,10 @@
           }
         },
         "url": {
-          "raw": "http://localhost:8080/api/v1/cervezas",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/cervezas",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -101,12 +95,10 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/v1/marcas",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/marcas",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -122,12 +114,10 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/v1/cervezas",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/cervezas",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -143,12 +133,10 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/v1/cervezas/dto",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/cervezas/dto",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -165,12 +153,10 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/v1/marcas/1",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/marcas/1",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -187,12 +173,10 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/v1/cervezas/1",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/cervezas/1",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -218,12 +202,10 @@
           }
         },
         "url": {
-          "raw": "http://localhost:8080/api/v1/marcas/1",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/marcas/1",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -249,12 +231,10 @@
           }
         },
         "url": {
-          "raw": "http://localhost:8080/api/v1/cervezas/1",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/cervezas/1",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -271,12 +251,10 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/v1/marcas/1",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/marcas/1",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -293,12 +271,10 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/v1/cervezas/1",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/cervezas/1",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
@@ -315,12 +291,10 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8080/api/v1/quotes/random",
-          "protocol": "http",
+          "raw": "{{baseUrl}}/api/v1/quotes/random",
           "host": [
-            "localhost"
+            "{{baseUrl}}"
           ],
-          "port": "8080",
           "path": [
             "api",
             "v1",
