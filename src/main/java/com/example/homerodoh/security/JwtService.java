@@ -12,7 +12,7 @@ import java.util.Date;
 public class JwtService {
 
     private static final String SECRET =
-            "MiClaveSuperSecretaParaJWT2026HomeroDohProyecto";
+            "${JWT_SECRET}";
 
     private SecretKey getSigningKey() {
 
