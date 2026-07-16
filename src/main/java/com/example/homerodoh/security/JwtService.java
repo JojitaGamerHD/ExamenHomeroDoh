@@ -10,9 +10,9 @@ import java.util.Date;
 
 @Service
 public class JwtService {
-
-    private static final String SECRET =
-            "${JWT_SECRET}";
+   
+    @Value("${JWT_SECRET}")
+    private String secret;
 
     private SecretKey getSigningKey() {
 
