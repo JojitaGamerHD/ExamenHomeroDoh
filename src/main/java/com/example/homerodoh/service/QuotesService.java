@@ -26,7 +26,7 @@ public class QuotesService {
 
             QuoteDTO response = webClient
                     .get()
-                    .uri("https://dummyjson.com/quotes/random")
+                    .uri("${randomapi.base-url}")
                     .retrieve()
                     .bodyToMono(QuoteDTO.class)
                     .timeout(Duration.ofSeconds(5))
